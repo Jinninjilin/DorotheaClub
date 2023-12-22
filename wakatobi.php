@@ -162,7 +162,7 @@
 
         <div class="row justify-content-md-center p-3">
             <div class="col-12 col-md-3 p-3">
-                <a href="labuanbajo.php">
+                <a href="labuan.php">
                     <div class="card" style="width: 18rem;">
                         <img src="poster/labuanblur.jpg" class="card-img-top card-img-zoom" alt="...">
                     </div>
@@ -195,7 +195,7 @@
                 </a>
             </div>
             <div class="col-12 col-md-3 p-3">
-                <a href="tanjungkelayang.php">
+                <a href="tanjung.php">
                     <div class="card" style="width: 18rem;">
                         <img src="poster/tanjungblur.jpg" class="card-img-top card-img-zoom" alt="...">
                     </div>
