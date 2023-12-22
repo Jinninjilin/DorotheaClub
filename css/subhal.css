@@ -1,0 +1,142 @@
+
+body,
+h5,
+a {
+  font-family: 'Caprasimo', sans-serif;
+
+}
+
+ul>li {
+  font-family: 'Bacasime Antique', serif;
+
+}
+
+p {
+  font-family: Neutraface-2-Text, helvetica, sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+h1 {
+  font-family: 'Caprasimo', sans-serif;
+  text-align: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 352px;
+  height: 352px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-card-kecil {
+  width: 252px;
+  height: 252px;
+}
+
+.flip-card-inner,
+.flip-card-kecil-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card-kecil:hover .flip-card-kecil-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back,
+.flip-card-kecil-front,
+.flip-card-kecil-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front,
+.flip-card-kecil-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back,
+.flip-card-kecil-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+
+}
+
+.containers {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 30.6792px;
+  font-family: SoDoSans, sans-serif;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #113946;
+}
+
+.card-img-zoom {
+  transition: transform 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.card-img-zoom:hover {
+  transform: scale(1.1);
+}
+
+.card-atas {
+  margin-top: 20px;
+}
+
+.container-center {
+  margin: 20px;
+  width: 80%;
+  /* Atur lebar container sesuai kebutuhan Anda */
+}
+
+.containers p {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.containers h1 {
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.h1, .h2, .h3, .h4, .h6, h1, h2, h3, h4, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: black; 
+  font-family: Neutraface-2-Text, helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: 200;
+}
+

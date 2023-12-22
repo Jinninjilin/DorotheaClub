@@ -1,0 +1,191 @@
+body,
+nav,
+main,
+footer {
+  overflow-x: hidden;
+  margin: 0px;
+}
+
+
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: white;
+}
+
+
+.carousel {
+  width: 100%;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.carousel.dragging {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.carousel--wrap {
+  white-space: nowrap;
+}
+
+.carousel--item {
+  display: inline-block;
+  width: 30vw;
+  padding: 3vw;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.carousel--item figure {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.carousel--item figure img {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  vertical-align: middle;
+  transform-origin: center;
+}
+
+.carousel--item>h2 {
+  position: absolute;
+  z-index: 1;
+  bottom: 1.8vw;
+  font-size: 6vw;
+  bottom: 1vw;
+  color: white;
+  -webkit-text-stroke: 3px #8B4513;
+  text-stroke: 3px #8B4513;
+}
+
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+
+main {
+  background-image: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+footer {
+  background-color: #113946;
+}
+
+
+.col-lg-4>img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.foto>img {
+  width: 100%;
+}
+
+.isikonten>.card {
+  margin-bottom: 10px;
+  background-image: linear-gradient(to left, #dfe59e, #a3e8bd, #7de3e4, #8fd5fa, #bcc3f2);
+  max-width: 80%;
+}
+
+.provinsi {
+  text-align: center;
+}
+
+.contents {
+  z-index: 5;
+  display: grid;
+  position: absolute;
+}
+
+.isiPenjelasan {
+  text-align: center;
+  font-size: 36px;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.card-body>img {
+  height: 200px;
+  max-width: 100%;
+}
+
+.carousel-item {
+  height: 360px;
+}
+
+body,
+h5,
+a {
+  font-family: 'Caprasimo', sans-serif;
+
+}
+
+ul>li {
+  font-family: 'Bacasime Antique', serif;
+
+}
+
+p {
+  font-family: Neutraface-2-Text, helvetica, sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+h1 {
+  font-family: 'Caprasimo', sans-serif;
+  text-align: center;
+}
+
+.fontGede {
+  padding-top: 30px;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: 'Caprasimo', sans-serif;
+  font-feature-settings: normal;
+  font-size: 70px;
+  font-weight: 200;
+  height: 71.6875px;
+  letter-spacing: -5.33892px;
+  line-height: 71.6941px;
+  opacity: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  /* border: 1px solid #000; */
+}
