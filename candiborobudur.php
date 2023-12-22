@@ -74,7 +74,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front" style="align-items: center;">
-                            <img src="poster/batikparang.jpg" alt="candi borobudur"
+                            <img src="poster/batikparang.JPG" alt="candi borobudur"
                             style="width:350px;height:350px;">
                         </div>
                         <div class="flip-card-back">
